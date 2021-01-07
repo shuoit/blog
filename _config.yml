@@ -38,12 +38,14 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: true # Transform title into titlecase
-external_link: false # Open external links in new tab
-filename_case: 0s
+
+filename_case: 2
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+external_link:
+  enable: true
 highlight:
   enable: true
   line_number: false

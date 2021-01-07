@@ -1,0 +1,5 @@
+{
+    "name": "ShuoitBlog",
+    "script": "hexo s -p 2014",
+    "cwd":"./"
+}

@@ -99,19 +99,21 @@ adsense:
 comments:
   enable: true
   disqus_shortname:
+  gitalk:
+    on: true
+    clientID: 6e1cc8f5f85d57f4c9c1
+    clientSecret: a3d60c38a6fbf8a14ee73ee6b2f79946c3107c27
+    owner: 'shuoit'
+    repo: 'comments'
+    admin: ['tangkunyin']
+    perPage: 6
+    pagerDirection: 'last'
   gitment:
     repo:
     githubID:
     ClientID:
     ClientSecret:
     lazy: true
-  gitalk:
-    on: true
-    owner: 'shuoit'
-    repo: 'comments'
-    admin: ['tangkunyin']
-    clientID: 6e1cc8f5f85d57f4c9c1
-    clientSecret: a3d60c38a6fbf8a14ee73ee6b2f79946c3107c27
 
 # Git-pages server info (Coding Pages|Github Pages)
 server_name:

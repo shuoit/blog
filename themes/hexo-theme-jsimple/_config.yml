@@ -97,7 +97,7 @@ adsense:
 ##                  | Gitment（Introduction: https://imsun.net/posts/gitment-introduction/）
 ##                  | gitalk  (Official website: https://gitalk.github.io/)
 comments:
-  enable: false
+  enable: true
   disqus_shortname:
   gitment:
     repo:
@@ -107,11 +107,11 @@ comments:
     lazy: true
   gitalk:
     on: true
-    owner: xx
-    repo: xx.github.io
-    admin: ['xxx']
-    clientID:
-    clientSecret:
+    owner: 'shuoit'
+    repo: 'comments'
+    admin: ['tangkunyin']
+    clientID: 6e1cc8f5f85d57f4c9c1
+    clientSecret: a3d60c38a6fbf8a14ee73ee6b2f79946c3107c27
 
 # Git-pages server info (Coding Pages|Github Pages)
 server_name:

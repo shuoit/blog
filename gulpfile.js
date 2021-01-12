@@ -1,14 +1,9 @@
 'use strict';
 
-var gulp = require('gulp');
-var minifycss = require('gulp-clean-css');
-var uglify = require('gulp-uglify');
-var htmlmin = require('gulp-htmlmin');
-var htmlclean = require('gulp-htmlclean');
-var imagemin = require('gulp-imagemin');
-
-// 引入babel，万一用了ES6呢
-var babel = require('gulp-babel');
+const gulp = require('gulp');
+const htmlmin = require('gulp-htmlmin');
+const htmlclean = require('gulp-htmlclean');
+const imagemin = require('gulp-imagemin');
 
 // 压缩 public 目录 html
 gulp.task('minify-html', async function() {
@@ -30,19 +25,6 @@ gulp.task('minify-html', async function() {
         })
         .pipe(gulp.dest('./public'))
 });
-// 压缩 public 目录 css
-gulp.task('minify-css', async function() {
-    await gulp.src('./public/**/*.css')
-        .pipe(minifycss())
-        .pipe(gulp.dest('./public'));
-});
-// 压缩js
-gulp.task('minify-js', async function() {
-    await gulp.src(['./public/js/**/*.js', '!./public/js/**/*.{min,mini}.js'])
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(gulp.dest('./public/js'));
-});
 // 压缩图片
 gulp.task('minify-images', async function() {
     await gulp.src('./public/img/**/*.*')
@@ -61,6 +43,6 @@ process.on('unhandledRejection', error => {
 });
 
 // 默认任务
-gulp.task('default', gulp.parallel('minify-html','minify-css','minify-js','minify-images', function(done){
+gulp.task('default', gulp.parallel('minify-html','minify-images', function(done){
     done();
 }));

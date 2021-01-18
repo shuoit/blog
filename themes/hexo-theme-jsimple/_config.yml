@@ -119,7 +119,7 @@ server_name:
 server_url:
 
 mathjax:
-   enable: true
+   enable: false
 
 ## Baidu ziyuan auto-commit. see https://ziyuan.baidu.com/
 baidu_auto_push: false

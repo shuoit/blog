@@ -1,8 +1,7 @@
 <% if (theme.analytics.enable){ %>
     <% if (theme.analytics.google_analytics_id){ %>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script defer src="//www.googletagmanager.com/gtag/js?id=<%= theme.analytics.google_analytics_id %>"></script>
-        <script>
+        <script async src="//www.googletagmanager.com/gtag/js?id=<%= theme.analytics.google_analytics_id %>"></script>
+        <script type="text/javascript">
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());

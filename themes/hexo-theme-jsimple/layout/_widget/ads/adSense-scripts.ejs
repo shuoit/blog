@@ -1,0 +1,26 @@
+<script type="text/javascript">
+$(function () {
+    <% if (type === 'auto') { %>
+        <!-- 自动广告 -->
+        setTimeout(function() {
+                let script = document.createElement("script");
+                script.setAttribute("async", "");
+                script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+                document.body.appendChild(script);
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "<%= theme.adsense.client_id %>",
+                    enable_page_level_ads: true
+                });
+            }, 1200);
+    <% } else if (type === 'custom') { %> 
+        <!-- 自定义广告 -->
+        setTimeout(function() {
+            let script = document.createElement("script");
+            script.setAttribute("async", "");
+            script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            document.body.appendChild(script);
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }, 1500);
+    <% } %>
+});
+</script>

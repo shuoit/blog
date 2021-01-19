@@ -27,8 +27,7 @@
     <% } %>
     <% if (is_archive() || 'tags' === page.layout || is_page() || is_post()) { %>
         <%- partial('adSense-scripts', {type: 'custom'}) %>
-    <% } else if (theme.adsense.auto) { %>
-        // home,catogery,tags 
+    <% } else if (theme.adsense.auto && (is_home() || is_category() || is_tag())) { %>
         <%- partial('adSense-scripts', {type: 'auto'}) %>
     <% } %>
 <% } %>

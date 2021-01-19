@@ -121,4 +121,4 @@ mathjax:
    enable: false
 
 ## Baidu ziyuan auto-commit. see https://ziyuan.baidu.com/
-baidu_auto_push: false
+baidu_auto_push: true

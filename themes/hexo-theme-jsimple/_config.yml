@@ -81,7 +81,6 @@ analytics:
 
 ## Google AdSense.
 adsense:
-  enable: true
   auto: true
   client_id: ca-pub-4837253996935841
   page_tb_id: 3228829614

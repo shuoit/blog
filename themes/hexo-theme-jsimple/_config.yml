@@ -54,10 +54,11 @@ cover_description: 一个关注技术与人文的IT博客
 
 # cover sns info
 sns:
-  github: https://github.com/tangkunyin
-  twitter: https://twitter.com/tangkunyin
-  instagram: https://www.instagram.com/mtangsir/
   telegram: https://t.me/kunyintang
+  twitter: https://twitter.com/tangkunyin
+  github: https://github.com/tangkunyin
+  stack-overflow: https://stackoverflow.com/users/6133063/tangkunyin
+  
 
 # page pop qrcode
 donateImg: /images/donate-qr.png

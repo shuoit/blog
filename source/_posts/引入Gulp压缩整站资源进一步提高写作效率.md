@@ -10,7 +10,7 @@ timestamp: 1547999542
 date: 2019-01-20 23:52:22
 tags: 
 	- hexo
-	- webx
+	- web
 keywords: jsimple,hexo主题,gulp加速hexo
 description: 话说，上一篇的主题更新日志拖了半天还没有写完，这又开始写了，真是脸大了。主要是因为引入了gulp操作，把整站资源压缩了，试了一把效果杠杠滴。以至于我没忍住，凌晨还要搞个大新闻！
 photos:

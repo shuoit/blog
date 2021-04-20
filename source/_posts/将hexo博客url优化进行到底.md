@@ -10,7 +10,7 @@ timestamp: 1528003174
 date: 2018-06-03 13:19:34
 tags:
 	- hexo
-	- webx
+	- web
 keywords:
 photos:
 	- /img/2017/hexo-blog-basic.jpg

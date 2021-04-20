@@ -10,7 +10,7 @@ authorDesc: 一个写代码的「伪文人」
 categories: 技术
 tags: 
 	- hexo
-	- webx
+	- web
 keywords:
 photos:
 	- /img/2017/hexo-blog-basic.jpg

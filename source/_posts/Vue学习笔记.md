@@ -9,7 +9,7 @@ categories: 技术
 timestamp: 1528027974
 date: 2018-06-03 20:12:54
 tags:
-    - vue2
+    - vue
     - javascript
 keywords: Vue
 description: 来自2018.5.12的笔记：Vue学习手记。高手请有默契的绕道...

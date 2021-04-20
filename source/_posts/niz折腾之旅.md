@@ -14,6 +14,7 @@ tags:
 keywords: niz，静电容键盘，固件升级
 description: 静电容键盘niz折腾日记。关于固件升级和灵敏度调节的问题！
 photos:
+- /img/2020/IMG_0024.jpg
 ---
 
 ### 背景

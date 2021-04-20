@@ -10,7 +10,7 @@ timestamp: 1559047955
 date: 2019-05-28 20:52:35
 tags:
     - 前端
-    - webx
+    - web
 keywords: rem,vh,vw
 description: 移动端下的网页适配笔记。适用于从Native转向H5开发的新手，涉及em、rem、vh、vw百分比这些单位及less插件的应用。
 photos:

@@ -55,32 +55,22 @@ highlight:
 # Category & Tag
 default_category: 技术
 category_map:
-   技术: tech
-   人文: huma
+  技术: tech
+  人文: huma
 tag_map:
-  dart: dart
-  swift: swift
-  objective-c: oc
-  java: java
-  python: py
-  javascript: js
-  typescript: ts
   苹果: ios
   安卓: android
   麦克: mac
-  webx: web
-  vue2: vue2
-  vue3: vue3
-  react: react
-  flutter: flutter
-  react-native: rn
-  hexo: hexo
   后端: back-end
   前端: front-end
   跨端: cross-app
   读书: reading
   旅行: traveling
+  养车: car-life
+  音乐: music
+  钢琴: piano
   配置: configs
+  工具: tools
   码常规: dev-tips
   黑科技: cool-tech
   碎碎念: impression

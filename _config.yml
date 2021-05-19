@@ -48,7 +48,7 @@ external_link:
   enable: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: true
   tab_replace:
 
@@ -123,3 +123,11 @@ lazyload:
   loadingImg: # optional eg ./images/loading.gif 
   isSPA: false # optional
   preloadRatio: 2
+
+# hexo-tag-cloud
+tag_cloud:
+    textFont: 'Trebuchet MS, Helvetica'
+    textColor: '#333'
+    textHeight: 16
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.2
